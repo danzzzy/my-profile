@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap');
+
+h1{
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 2em;
+}
+
+h2{
+  font-size: 16px;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  background-color: rgba(47, 65, 47, 0.904);
+  color: white;
+}
+
+h3{
+  font-size: 25px;
+  opacity: 0.8;
+  line-height: 2em;
+}
+
+p {
+  opacity: 0.8;
+}
+
+a {
+  color: rgba(13, 70, 70, 0.5);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: rgba(9, 97, 46, 0.767);
+  color: whitesmoke;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card{
+  box-shadow: 3px 3px 3px 1px rgba(255, 255, 255, 0.501);
+  background-color: rgb(155, 155, 155);
+  text-align: center;
+  padding: 20px 20px;
+  margin: 40px 0px;
+  border-radius: 15px;
+}
+
+.card-header{
+  box-shadow: 3px 3px 3px 1px rgba(255, 255, 255, 0.501);
+  background-color: rgb(155, 155, 155);
+  text-align: center;
+  padding: 20px 20px;
+  margin: 40px 0px;
+  border-radius: 15px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color:rgba(0, 0, 0, 0.705);
+  font-size: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.img-center {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: left 75%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+}
+
+.btn {
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.301);
+background-color: rgb(202, 202, 202);
+border-radius: 10px;
+line-height: 2em;
+padding: 10px 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
